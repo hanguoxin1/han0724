@@ -25,7 +25,7 @@ new Swiper(".swiper-container", {
         [].forEach.call(slideAry, function (item, index) {
             if (index == n) {
                 //->这个就是当前这一块,需要设定ID
-                item.id = index == 1 || index == 3 ? "page1" : "page2";
+                item.id = index == 1 || index == 5 ? "page1" : "page"+n;
                 return;
             }
             item.id = null;

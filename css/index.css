@@ -17,15 +17,15 @@ html {
 
 /*--音乐--*/
 /*.music {*/
-    /*display: none;*/
-    /*position: absolute;*/
-    /*top: .2rem;*/
-    /*right: .2rem;*/
-    /*z-index: 1000;*/
-    /*width: .6rem;*/
-    /*height: .6rem;*/
-    /*background: url("../audio/music.svg") no-repeat;*/
-    /*background-size: 100% 100%;*/
+/*display: none;*/
+/*position: absolute;*/
+/*top: .2rem;*/
+/*right: .2rem;*/
+/*z-index: 1000;*/
+/*width: .6rem;*/
+/*height: .6rem;*/
+/*background: url("../audio/music.svg") no-repeat;*/
+/*background-size: 100% 100%;*/
 /*}*/
 
 .musicMove {
@@ -58,7 +58,7 @@ html {
 /*--第一屏幕--*/
 .page1 {
     position: relative;
-  /*//  background: url("../img/bg1.jpg") no-repeat;*/
+    /*//  background: url("../img/bg1.jpg") no-repeat;*/
     background: black;
     background-size: cover;
 }
@@ -143,19 +143,22 @@ html {
     width: 3.4rem;
     height: 1.74rem;
 }
+
 .page2 img:nth-child(3) {
     top: 5rem;
     left: 0rem;
     width: 7rem;
     height: 2rem;
 }
+
 .page2 img:nth-child(4) {
     top: 6rem;
     left: 0rem;
     width: 7rem;
     height: 3rem;
 }
-.page2 .page2Div div{
+
+.page2 .page2Div div {
     position: absolute;
     color: white;
     cursor: default;
@@ -163,6 +166,7 @@ html {
     width: 2rem;
     height: .6rem;
 }
+
 .page2 .page2Div div:nth-child(1) {
     cursor: default;
     font-size: 0.35rem;
@@ -173,42 +177,49 @@ html {
     position: absolute;
     color: white;
 }
+
 .page2 .page2Div div:nth-child(2) {
     left: 1.5rem;
     top: 2.7rem;
 }
+
 .page2 .page2Div div:nth-child(3) {
     left: 3.5rem;
     top: 2.7rem;
 }
+
 .page2 .page2Div div:nth-child(4) {
     left: 1.5rem;
     top: 3.2rem;
 }
+
 .page2 .page2Div div:nth-child(5) {
     left: 3.5rem;
     top: 3.2rem;
 }
+
 .page2 .page2Div div:nth-child(6) {
     left: 1.5rem;
     top: 3.7rem;
 }
+
 .page2 .page2Div div:nth-child(7) {
     left: 3.5rem;
     top: 3.7rem;
 }
-
 
 /*设置第二屏幕的动画*/
 #page2 img:nth-child(1) {
     -webkit-animation: bounceInLeft 1s both;
     animation: bounceInLeft 1s both;
 }
+
 /*设置第二屏幕的动画*/
 #page2 img:nth-child(3) {
     -webkit-animation: bounceInRight 1s both;
     animation: bounceInRight 1s both;
 }
+
 #page2 img:nth-child(4) {
     -webkit-animation: bounceInRight 1s both;
     animation: bounceInRight 1s both;
@@ -218,15 +229,168 @@ html {
     -webkit-animation: rollIn 1s .3s both;
     animation: rollIn 1s .3s both;
 }
+
 #page2 .page2Div div:nth-child(2n+1) {
     -webkit-animation: bounceInUp 1s .3s both;
     animation: bounceInUp 1s .3s both;
 }
+
 #page2 .page2Div div:nth-child(1) {
     -webkit-animation: flipInY 1s .3s both;
     animation: flipInY 1s .3s both;
 }
 
+/*--第二屏幕--*/
+.page3 ,.page4{
+    position: relative;
+    /*background: url("../img/bg2.jpg") no-repeat;*/
+    background: black;
+    background-size: cover;
+}
+#page3 span{
+    color: white;
+    position: absolute;
+    display: block;
+}
+#page3 img{
+    width: 1rem;
+    height: 0.5rem;
+    display: block;
+    position: absolute;
+}
+#page3 .page3-1:nth-child(1) img{
+    top: 2rem;
+    left: 0.5rem;
+}
+#page3 .page3-1:nth-child(1) span{
+    top:2.3rem;
+    left:1.5rem;
+}
+#page3  .page3-1:nth-child(2) img{
+     top: 3rem;
+     left: 0.5rem;
+}
+#page3 .page3-1:nth-child(2) span{
+    top:3.3rem;
+    left:1.5rem;
+}
+#page3  .page3-1:nth-child(3) img{
+    top: 4rem;
+    left: 0.5rem;
+}
+#page3 .page3-1:nth-child(3) span{
+    top:4.3rem;
+    left:1.5rem;
+}
+#page3 .page3-1:nth-child(4) span{
+    top:5.3rem;
+    left:1.5rem;
+}
+#page3  .page3-1:nth-child(4) img{
+    top: 5rem;
+    left: 0.5rem;
+}
+#page3  .page3-1:nth-child(1) img {
+    -webkit-animation: bounceInLeft 1s both;
+    animation: bounceInLeft 1s both;
+}
+
+
+#page3  .page3-1:nth-child(2) img {
+    -webkit-animation: bounceInRight 1s both;
+    animation: bounceInRight 1s both;
+}
+
+#page3  .page3-1:nth-child(3) img {
+    -webkit-animation: bounce 1s both;
+    animation: bounce 1s both;
+}
+#page3  .page3-1:nth-child(4) img {
+    -webkit-animation: rollIn 1s both;
+    animation: rollIn 1s both;
+}
+
+#page3  .page3-1 span{
+    -webkit-animation: bounce 1s both;
+    animation: bounce 1s both;
+}
+#page3 .page3-2,#page3 .page3-3{
+    position: absolute;
+}
+#page3 .page3-2{
+    top: 7rem;
+    left: 2rem;
+    height: 3rem;
+    width: 3rem;
+}
+#page3 .page3-3{
+    top: 10rem;
+    left: 0rem;
+    height: 1rem;
+    width: 7rem;
+}
+#page3 .page3-3{
+    -webkit-animation: zoomIn 1s both;
+    animation: zoomIn 1s both;
+}
+#page3 .page3-2{
+    -webkit-animation: zoomIn 1s both;
+    animation: zoomIn 1s both;
+}
+
+.page4 div{
+    position: absolute;
+    color: white;
+    font-size: 0.4rem;
+}
+.page4 img{
+    position: absolute;
+    width: 1rem;
+    height: 2rem;
+}
+#page4 div:nth-child(1){
+    left: 1rem;
+    top:1.5rem;
+}
+#page4 div:nth-child(1){
+    -webkit-animation:flipInY 1s both;
+    animation:flipInY 1s both;
+}
+#page4 img:nth-child(2){
+    left: 1rem;
+    top:2.5rem;
+}
+#page4 img:nth-child(3){
+    left: 4rem;
+    top:3.5rem;
+}
+#page4 img:nth-child(4){
+    left: 2rem;
+    top:5rem;
+}
+#page4 img:nth-child(2){
+    -webkit-animation:flipInY 1s both;
+    animation:flipInY 1s both;
+}
+#page4 img:nth-child(3){
+    -webkit-animation:flipInY 1s both;
+    animation:flipInY 1s both;
+}
+#page4 img:nth-child(4){
+    -webkit-animation:flipInY 1s both;
+    animation:flipInY 1s both;
+}
+
+#page4 img:nth-child(5){
+    top: 10rem;
+    left: 0rem;
+    height: 1rem;
+    width: 7rem;
+}
+#page4 img:nth-child(5){
+    -webkit-animation: zoomIn 1s both;
+    animation: zoomIn 1s both;
+}
 /*--借用CSS3的Animate.css帧动画库的运动公式--*/
 @-webkit-keyframes bounceInLeft {
     from, 60%, 75%, 90%, to {
@@ -536,7 +700,6 @@ html {
     }
 }
 
-
 @-webkit-keyframes rollIn {
     from {
         opacity: 0;
@@ -562,5 +725,89 @@ html {
         opacity: 1;
         -webkit-transform: none;
         transform: none;
+    }
+}
+
+
+@-webkit-keyframes bounce {
+    from, 20%, 53%, 80%, to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    40%, 43% {
+        -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+        animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+        -webkit-transform: translate3d(0, -30px, 0);
+        transform: translate3d(0, -30px, 0);
+    }
+
+    70% {
+        -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+        animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+        -webkit-transform: translate3d(0, -15px, 0);
+        transform: translate3d(0, -15px, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(0, -4px, 0);
+        transform: translate3d(0, -4px, 0);
+    }
+}
+
+@keyframes bounce {
+    from, 20%, 53%, 80%, to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    40%, 43% {
+        -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+        animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+        -webkit-transform: translate3d(0, -30px, 0);
+        transform: translate3d(0, -30px, 0);
+    }
+
+    70% {
+        -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+        animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+        -webkit-transform: translate3d(0, -15px, 0);
+        transform: translate3d(0, -15px, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(0, -4px, 0);
+        transform: translate3d(0, -4px, 0);
+    }
+}
+
+
+@-webkit-keyframes slideOutDown {
+    from {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    to {
+        visibility: hidden;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+}
+
+@keyframes slideOutDown {
+    from {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    to {
+        visibility: hidden;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
     }
 }
